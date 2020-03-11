@@ -1,0 +1,12 @@
+<p>Transport Information</p>
+<!-- <app-bus></app-bus> -->
+<!-- 
+<app-bus routeNo=1 busName="KSRTC"></app-bus>
+<app-bus routeNo=2 busName="VRL"></app-bus>
+<app-bus routeNo=3 busName="SRS"></app-bus> -->
+
+<app-bus
+*ngFor ="let bus of buses"
+[BusDetails]="bus">
+
+</app-bus>

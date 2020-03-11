@@ -1,0 +1,18 @@
+<!-- <department title="HR" desc="Heart of an organization"></department>
+
+<department title="Engg" desc="Software development nd R&D"></department>
+
+<department title="finance" desc="Salary process"></department> -->
+<!-- 
+<department [deptdetails]="depts[0]"></department>
+
+<department [deptdetails]="depts[1]"></department>
+<department [deptdetails]="depts[2]"></department>
+ -->
+<h3> List of departments</h3>
+ <department *ngFor="let department of depts" [deptdetails]="department"></department> 
+<!-- <button (click)="nextDepartment()" class="btn btn-success"> Show next</button>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<button (click)="previousDepartment()" class="btn btn-success"> Show Previous</button> -->
+<!-- 
+<department [deptdetails]="showDept"></department> -->
